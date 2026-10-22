@@ -8,13 +8,7 @@ from config import (
     ABOUT_CAPTION,
     START_VIDEO,
     HELP_VIDEO,
-    ABOUT_VIDEO,
-    QRCODE_CAPTION,
-    TEXT_TOOLKIT_CAPTION,
-    TEXT_TO_SPEECH_CAPTION,
-    QRCODE_VIDEO,
-    TEXT_TOOLKIT_VIDEO,
-    TEXT_TO_SPEECH_VIDEO
+    ABOUT_VIDEO
 )
 
 from buttons import (
@@ -51,46 +45,7 @@ async def callback_handler(client, query):
             ),
             reply_markup=back_button()
         )
-
-    # QR Code guide
-    elif query.data == "help_qrcode":
-
-        await query.answer()
-
-        await query.message.edit_media(
-            media=InputMediaVideo(
-                media=QRCODE_VIDEO,
-                caption=QRCODE_CAPTION
-            ),
-            reply_markup=back_button()
-        )
-
-    # Text Toolkit guide
-    elif query.data == "help_text":
-
-        await query.answer()
-
-        await query.message.edit_media(
-            media=InputMediaVideo(
-                media=TEXT_TOOLKIT_VIDEO,
-                caption=TEXT_TOOLKIT_CAPTION
-            ),
-            reply_markup=back_button()
-        )
-
-    # Text-to-Speech guide
-    elif query.data == "help_tts":
-
-        await query.answer()
-
-        await query.message.edit_media(
-            media=InputMediaVideo(
-                media=TEXT_TO_SPEECH_VIDEO,
-                caption=TEXT_TO_SPEECH_CAPTION
-            ),
-            reply_markup=back_button()
-        )
-
+        
     # Return to main menu
     elif query.data == "back":
 
@@ -121,7 +76,7 @@ def register_callbacks(app):
         CallbackQueryHandler(
             callback_handler,
             filters.regex(
-                r"^(help|about|back|close|help_qrcode|help_text|help_tts)$"
+                r"^(help|about|back|close)$"
             )
         )
     )
