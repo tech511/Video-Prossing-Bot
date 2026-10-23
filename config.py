@@ -12,21 +12,21 @@ START_TEXT = """
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- @Bot_Arena_Official
 """
 
-# Videos — replace with your own video URLs
-HELP_VIDEO = "YOUR_HELP_VIDEO_URL"
-QRCODE_VIDEO = "https://graph.org/file/218f412cc841c4f8945b9-4223b8eef03e22ff13.mp4"
-TEXT_TOOLKIT_VIDEO = "https://graph.org/file/218f412cc841c4f8945b9-4223b8eef03e22ff13.mp4"
-TEXT_TO_SPEECH_VIDEO = "https://graph.org/file/218f412cc841c4f8945b9-4223b8eef03e22ff13.mp4"
+HELP_CAPTION = """
 
+HERE IS A HELP CAPTION
+
+"""
+# Videos — replace with your own video URLs
 ABOUT_CAPTION = """
-➤ ɴᴀᴍᴇ : ᴛᴇxᴛ ᴛᴏᴏʟᴋɪᴛ ʙᴏᴛ
+➤ ɴᴀᴍᴇ : ______
 ➤ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 🐍
 ➤ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ ⚡
 ➤ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @DA_R_KS_I_DE
 ✦ ғᴇᴀᴛᴜʀᴇꜱ
-  • Qʀ ᴄᴏᴅᴇ ɢᴇɴᴇʀᴀᴛᴏʀ
-  • ᴛᴇxᴛ ᴛᴏᴏʟᴋɪᴛ
-  • ᴛᴇxᴛ ᴛᴏ ꜱᴘᴇᴇᴄʜ
+  • _____
+  • _____
+  • ____
 """
 # Replace these with your COMPLETE video URLs.
 START_VIDEO = "https://graph.org/file/218f412cc841c4f8945b9-4223b8eef03e22ff13.mp4"
