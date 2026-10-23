@@ -8,11 +8,7 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 START_TEXT = """
-ʜᴇʏ, {first_name}! ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴇxᴛ ᴛᴏᴏʟ ᴋɪᴛ ʙᴏᴛ 🌍
-
-ɪᴛ'ꜱ ᴀ ʟɪɢʜᴛᴡᴇɪɢʜᴛ ᴍᴜʟᴛɪ-ᴛᴏᴏʟ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ᴍᴀᴋᴇ ᴇᴠᴇʀʏᴅᴀʏ ᴛᴀꜱᴋꜱ ᴇᴀꜱɪᴇʀ.⚡
-ᴇxᴘʟᴏʀᴇ ᴛʜᴇ ꜰᴜᴛᴜʀᴇꜱ ʙʏ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ. 🚀
-
+ʜᴇʏ, {first_name}! ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ____ 🌍🚀
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- @Bot_Arena_Official
 """
 
