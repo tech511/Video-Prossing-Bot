@@ -1,0 +1,7 @@
+pyrogram==2.0.106
+tgcrypto>=1.2.5
+motor>=3.3.2,<4
+pymongo>=4.5,<5
+dnspython>=2.4 
+ffmpeg 
+python-dotenv>=1.0
